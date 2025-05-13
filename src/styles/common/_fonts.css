@@ -1,0 +1,71 @@
+@font-face {
+    font-family: IRANSansX;
+    src: url('./../../assets/fonts/IRANSansX/IRANSansX-ThinD4.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: IRANSansX;
+    src: url('./../../assets/fonts/IRANSansX/IRANSansX-UltraLightD4.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: IRANSansX;
+    src: url('./../../assets/fonts/IRANSansX/IRANSansX-LightD4.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: IRANSansX;
+    src: url('./../../assets/fonts/IRANSansX/IRANSansX-RegularD4.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: IRANSansX;
+    src: url('./../../assets/fonts/IRANSansX/IRANSansX-MediumD4.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: IRANSansX;
+    src: url('./../../assets/fonts/IRANSansX/IRANSansX-DemiBoldD4.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: IRANSansX;
+    src: url('./../../assets/fonts/IRANSansX/IRANSansX-BoldD4.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: IRANSansX;
+    src: url('./../../assets/fonts/IRANSansX/IRANSansX-ExtraBoldD4.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: IRANSansX;
+    src: url('./../../assets/fonts/IRANSansX/IRANSansX-BlackD4.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}

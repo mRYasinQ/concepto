@@ -1,0 +1,5 @@
+@layer base {
+    body {
+        @apply font-irsansx relative cursor-default scroll-smooth bg-white font-normal select-none;
+    }
+}
