@@ -1,5 +1,29 @@
 @layer base {
     body {
-        @apply font-irsansx relative cursor-default scroll-smooth bg-white font-normal select-none;
+        @apply font-irsansx bg-neutral-white relative cursor-default scroll-smooth font-normal select-none;
+    }
+
+    h1 {
+        @apply text-[44px] font-bold;
+    }
+
+    h2 {
+        @apply text-[40px] font-bold;
+    }
+
+    h3 {
+        @apply text-[32px] font-bold;
+    }
+
+    h4 {
+        @apply text-[24px] font-bold;
+    }
+
+    h5 {
+        @apply text-[20px] font-bold;
+    }
+
+    h6 {
+        @apply text-[16px] font-bold;
     }
 }

@@ -1,17 +1,17 @@
 @theme {
     --font-irsansx: 'IRANSansX';
 
-    --color-white: #ffffff;
-    --color-black: #0f0f0f;
+    --color-neutral-white: #ffffff;
+    --color-neutral-black: #0f0f0f;
 
-    --color-gray-100: #e9eaee;
-    --color-gray-200: #cbced7;
-    --color-gray-300: #aeb2c0;
-    --color-gray-400: #9095aa;
-    --color-gray-500: #737993;
-    --color-gray-600: #5b6176;
-    --color-gray-700: #444859;
-    --color-gray-800: #2e303b;
+    --color-neutral-gray-100: #e9eaee;
+    --color-neutral-gray-200: #cbced7;
+    --color-neutral-gray-300: #aeb2c0;
+    --color-neutral-gray-400: #9095aa;
+    --color-neutral-gray-500: #737993;
+    --color-neutral-gray-600: #5b6176;
+    --color-neutral-gray-700: #444859;
+    --color-neutral-gray-800: #2e303b;
 
     --color-primary: #0d6efd;
 

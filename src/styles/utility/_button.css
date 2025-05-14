@@ -1,0 +1,15 @@
+@utility button-xlg {
+    @apply text-[18px] font-medium;
+}
+
+@utility button-lg {
+    @apply text-[16px] font-medium;
+}
+
+@utility button-md {
+    @apply text-[14px] font-medium;
+}
+
+@utility button-s {
+    @apply text-[12px] font-medium;
+}
