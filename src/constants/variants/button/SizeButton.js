@@ -1,4 +1,4 @@
-const SizeVariant = {
+const SizeButton = {
     32: {
         icon: 'size-8 [&_svg]:w-5',
         text: 'w-fit h-8 px-3 button-xlg [&_svg]:w-5',
@@ -17,4 +17,4 @@ const SizeVariant = {
     },
 };
 
-export default SizeVariant;
+export default SizeButton;

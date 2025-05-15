@@ -1,0 +1,7 @@
+@utility caption-lg {
+    @apply text-sm font-bold;
+}
+
+@utility caption-md {
+    @apply text-xs font-normal;
+}

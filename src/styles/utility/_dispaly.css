@@ -1,7 +1,0 @@
-@utility display-1 {
-    @apply !text-[64px] !font-bold;
-}
-
-@utility display-2 {
-    @apply !text-[56px] !font-bold;
-}

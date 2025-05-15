@@ -1,4 +1,4 @@
-const StyleVariant = {
+const StyleButton = {
     yellow: {
         fill: 'border-none bg-secondary text-black ',
         outline: 'border border-secondary bg-transparent text-secondary',
@@ -25,15 +25,15 @@ const StyleVariant = {
         normal: 'border-none bg-transparent text-neutral-black',
     },
     red: {
-        fill: '',
-        outline: '',
-        normal: '',
+        fill: 'border-none bg-state-error-200 text-neutral-white',
+        outline: 'border border-state-error-200 bg-transparent text-state-error-200',
+        normal: 'border-none bg-transparent text-state-error-200',
     },
     disable: {
-        fill: '',
-        outline: '',
-        normal: '',
+        fill: 'border-none bg-neutral-gray-100 text-neutral-gray-300',
+        outline: 'border border-neutral-gray-300 bg-transparent text-neutral-gray-300',
+        normal: 'border-none bg-transparent text-neutral-gray-300',
     },
 };
 
-export default StyleVariant;
+export default StyleButton;

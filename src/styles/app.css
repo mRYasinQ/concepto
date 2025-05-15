@@ -7,3 +7,6 @@
 @import './common/_utilities.css';
 
 @import './utility/_button.css';
+@import './utility/_display.css';
+@import './utility/_body.css';
+@import './utility/_caption.css';

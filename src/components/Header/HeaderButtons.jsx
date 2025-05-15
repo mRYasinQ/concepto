@@ -1,4 +1,5 @@
 import { Button } from '../Button';
+import { ProfileButton } from '../ProfileButton';
 
 import { LogInIcon } from '../../icons/LogInIcon';
 import { ZapIcon } from '../../icons/ZapIcon';
@@ -10,6 +11,11 @@ export const HeaderButtons = ({ isLogged, setIsLogged }) => {
         setIsLogged((isLogged) => !isLogged);
     }
 
+    const userProfile = {
+        imgSrc: '/images/profile/user-01.jpg',
+        notification: ['سلام'],
+    };
+
     return (
         <>
             <div className="flex w-full items-center justify-end gap-4 lg:hidden">
@@ -17,17 +23,9 @@ export const HeaderButtons = ({ isLogged, setIsLogged }) => {
                     رایگان شروع کن!
                 </Button>
                 {isLogged ? (
-                    <Button
-                        type="icon"
-                        style="outline"
-                        color="grey"
-                        size="40"
-                        corners="squered"
-                        rightIcon={<LogInIcon />}
-                        onClick={clickHandler}
-                    >
-                        خروج
-                    </Button>
+                    <ProfileButton color="black" device="desktop" profile={userProfile} onClick={clickHandler}>
+                        یاسین عباسی
+                    </ProfileButton>
                 ) : (
                     <Button
                         type="icon"
@@ -47,17 +45,9 @@ export const HeaderButtons = ({ isLogged, setIsLogged }) => {
                     رایگان شروع کن!
                 </Button>
                 {isLogged ? (
-                    <Button
-                        type="text"
-                        style="outline"
-                        color="grey"
-                        size="48"
-                        corners="squered"
-                        rightIcon={<LogInIcon />}
-                        onClick={clickHandler}
-                    >
-                        خروج
-                    </Button>
+                    <ProfileButton color="black" device="desktop" profile={userProfile} onClick={clickHandler}>
+                        یاسین عباسی
+                    </ProfileButton>
                 ) : (
                     <Button
                         type="text"

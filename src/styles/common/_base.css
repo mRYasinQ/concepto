@@ -1,6 +1,6 @@
 @layer base {
     body {
-        @apply font-irsansx bg-neutral-white relative cursor-default scroll-smooth font-normal select-none;
+        @apply font-irsansx bg-neutral-white cursor-default overflow-x-hidden scroll-smooth font-normal select-none;
     }
 
     h1 {

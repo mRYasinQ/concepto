@@ -1,0 +1,39 @@
+@utility body-3xlg {
+    @apply text-[44px] font-normal;
+}
+
+@utility body-2xlg {
+    @apply text-[40px] font-normal;
+}
+
+@utility body-xlg {
+    @apply text-[32px] font-normal;
+}
+
+@utility body-lg {
+    @apply text-[28px] font-normal;
+}
+
+@utility body-md {
+    @apply text-2xl font-medium;
+}
+
+@utility body-smd {
+    @apply text-[22px] font-normal;
+}
+
+@utility body-regular {
+    @apply text-xl font-normal;
+}
+
+@utility body-s {
+    @apply text-lg font-normal;
+}
+
+@utility body-xs {
+    @apply text-base font-normal;
+}
+
+@utility body-xxs {
+    @apply text-sm font-normal;
+}
