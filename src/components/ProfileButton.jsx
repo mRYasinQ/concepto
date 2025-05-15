@@ -7,7 +7,7 @@ export const ProfileButton = ({ profile: { imgSrc, notification }, onClick, chil
             <div className="relative">
                 <img className="size-10 rounded-full lg:size-8" src={imgSrc} alt="تصویر پروفایل کاربر" />
                 {notification.length >= 1 && (
-                    <div className="bg-primary border-neutral-white absolute right-[10%] bottom-[5%] size-2 rounded-full border-2"></div>
+                    <div className="bg-primary border-neutral-white absolute right-[10%] bottom-[5%] size-2 rounded-full border lg:border-2"></div>
                 )}
             </div>
             <span className="button-lg hidden lg:block">{children}</span>
