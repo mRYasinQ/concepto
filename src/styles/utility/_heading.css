@@ -1,0 +1,23 @@
+@utility heading-1 {
+    @apply text-[44px] font-bold;
+}
+
+@utility heading-2 {
+    @apply text-[40px] font-bold;
+}
+
+@utility heading-3 {
+    @apply text-[32px] font-bold;
+}
+
+@utility heading-4 {
+    @apply text-2xl font-bold;
+}
+
+@utility heading-5 {
+    @apply text-xl font-bold;
+}
+
+@utility heading-6 {
+    @apply text-base font-bold;
+}
