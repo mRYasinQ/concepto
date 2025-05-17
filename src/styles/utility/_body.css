@@ -37,3 +37,7 @@
 @utility body-xxs {
     @apply text-sm font-normal;
 }
+
+@utility body-xxs {
+    @apply text-xs font-normal;
+}
