@@ -9,7 +9,7 @@ export const Button = ({ type, style, color, size, corners, rightIcon, leftIcon,
         <button
             ref={btnRef}
             onClick={onClick}
-            className={`flex cursor-pointer items-center justify-center gap-2 ${StyleButton[color][style]} ${SizeButton[size][type]} ${CornerButton[corners]}`}
+            className={`flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap ${StyleButton[color][style]} ${SizeButton[size][type]} ${CornerButton[corners]}`}
         >
             {rightIcon && <Icon>{rightIcon}</Icon>}
             <span className={type === 'icon' ? 'hidden' : ''}>{children}</span>

@@ -1,8 +1,8 @@
 const StyleButton = {
     yellow: {
-        fill: 'border-none bg-secondary text-black ',
+        fill: 'border-none bg-secondary text-black',
         outline: 'border border-secondary bg-transparent text-secondary',
-        normal: 'border-none bg-transparent text-secondary ',
+        normal: 'border-none bg-transparent text-secondary',
     },
     blue: {
         fill: ' border-none bg-primary text-neutral-white',
@@ -12,7 +12,7 @@ const StyleButton = {
     white: {
         fill: 'border-none bg-neutral-white text-neutral-black',
         outline: 'border border-neutral-white bg-transparent text-neutral-white',
-        normal: 'border-none bg-transparent text-neutral-white    ',
+        normal: 'border-none bg-transparent text-neutral-white',
     },
     grey: {
         fill: 'border-none bg-neutral-gray-100 text-neutral-gray-800',
