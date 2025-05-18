@@ -4,6 +4,7 @@ import { Invesments } from '../components/Invesments';
 import { Instructions } from '../components/Instructions';
 import { Categories } from '../components/Categories';
 import { Populars } from '../components/Populars';
+import { Opportunities } from '../components/Opportunities';
 
 export default function Home() {
     return (
@@ -15,6 +16,7 @@ export default function Home() {
                 <Instructions />
                 <Categories />
                 <Populars />
+                <Opportunities />
             </main>
         </>
     );
