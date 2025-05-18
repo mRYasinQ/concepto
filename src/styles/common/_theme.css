@@ -61,4 +61,7 @@
 
     --color-state-warning-100: #fff1c9;
     --color-state-warning-200: #ffbe00;
+
+    --shadow-no-1: 0px 2px 32px rgba(28, 28, 28, 0.06);
+    --shadow-no-2: 0px 3px 10px rgba(28, 28, 28, 0.03);
 }
