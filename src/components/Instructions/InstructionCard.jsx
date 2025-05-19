@@ -11,7 +11,7 @@ export const InstructionCard = ({ cardData: { image, title, color } }) => {
             >
                 <img
                     className="absolute bottom-0 h-[128.8px] px-8 md:h-[228px]"
-                    src={`/images/instruction/${image}`}
+                    src={`images/instruction/${image}`}
                     alt={title}
                 />
             </div>

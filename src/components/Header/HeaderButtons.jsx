@@ -12,7 +12,7 @@ export const HeaderButtons = ({ isLogged, setIsLogged }) => {
     }
 
     const userProfile = {
-        imgSrc: '/images/profile/user-01.jpg',
+        imgSrc: 'images/profile/user-01.jpg',
         notification: ['سلام'],
     };
 

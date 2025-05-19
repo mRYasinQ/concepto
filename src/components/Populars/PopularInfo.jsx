@@ -10,7 +10,7 @@ export const PopularInfo = ({ company }) => {
                 <div className="border-neutral-white size-16 overflow-hidden rounded-xl border-[3px] md:size-18">
                     <img
                         className="h-full w-full object-cover object-center"
-                        src={`/images/companies/logo/${logo}`}
+                        src={`images/companies/logo/${logo}`}
                         alt={name}
                     />
                 </div>

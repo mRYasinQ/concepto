@@ -9,7 +9,7 @@ export const JobCard = ({
             <div className="relative -mb-[20%] size-14 overflow-hidden rounded-lg bg-white shadow-[0px_10px_50px_rgba(0,0,0,0.08)] md:size-18">
                 <img
                     className="h-full w-full object-cover object-center"
-                    src={`/images/opportunities/${logo}`}
+                    src={`images/opportunities/${logo}`}
                     alt={name}
                 />
             </div>

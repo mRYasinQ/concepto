@@ -4,7 +4,7 @@ export const Category = ({ categoryData: { name, link, image } }) => {
             <div className="border-primary size-14 rounded-full md:size-21 md:border-2 md:p-1.5">
                 <img
                     className="size-full rounded-full object-cover object-center"
-                    src={`/images/categories/${image}`}
+                    src={`images/categories/${image}`}
                     alt={name}
                 />
             </div>
