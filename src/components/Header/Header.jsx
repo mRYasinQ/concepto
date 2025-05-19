@@ -1,6 +1,5 @@
 import { useRef, useState } from 'react';
 
-import { Container } from '../Container';
 import { MenuButton } from '../Menu/MenuButton';
 import { Logo } from '../Logo';
 import { SearchBox } from './SearchBox';
@@ -15,7 +14,7 @@ export const Header = () => {
 
     return (
         <header className="border-neutral-gray-100 border-b py-3 md:py-4.5 lg:border-none lg:py-6">
-            <Container>
+            <div className="container">
                 <div className="flex flex-col gap-3">
                     <div className="flex items-center">
                         <div className="flex w-full items-center justify-start gap-3 lg:gap-6">
@@ -34,7 +33,7 @@ export const Header = () => {
                         </div>
                     </div>
                 </div>
-            </Container>
+            </div>
         </header>
     );
 };
