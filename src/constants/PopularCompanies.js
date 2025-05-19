@@ -3,7 +3,7 @@ const PopularCompanies = [
         company: {
             name: 'شرکت اسنپ',
             category: 'تجارت الکترونیک',
-            banner: 'snapp.png',
+            banner: 'snapp.jpg',
             logo: 'snapp.png',
         },
         newContacts: 21394,
@@ -18,7 +18,7 @@ const PopularCompanies = [
         company: {
             name: 'شرکت دیجی کالا',
             category: 'تجارت الکترونیک',
-            banner: 'digikala.png',
+            banner: 'digikala.jpg',
             logo: 'digikala.png',
         },
         newContacts: 25120,
@@ -34,7 +34,7 @@ const PopularCompanies = [
             name: 'کارگزاری فارابی',
             category: 'تجارت الکترونیک',
             banner: 'farabi.png',
-            logo: 'farabi.png',
+            logo: 'farabi.jpg',
         },
         newContacts: 29120,
         newInvesments: 392,
@@ -48,8 +48,8 @@ const PopularCompanies = [
         company: {
             name: 'شرکت علی بابا',
             category: 'تجارت الکترونیک',
-            banner: 'alibaba.png',
-            logo: 'alibaba.png',
+            banner: 'alibabagroup.jpg',
+            logo: 'alibabagroup.png',
         },
         newContacts: 26750,
         newInvesments: 234,

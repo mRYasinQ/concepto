@@ -1,9 +1,19 @@
-export const PopularInfo = ({ companyInfo: { name, category, banner, logo } }) => {
+import { PopularBanner } from './PopularBanner';
+
+export const PopularInfo = ({ company }) => {
+    const { name, logo, category } = company;
+
     return (
         <div>
-            <img src={`/images/companies/banner/${banner}`} alt={`Banner ${name}`} />
-            <div className="-mt-7 flex items-end gap-x-4 p-4 md:-mt-8">
-                <img className="size-16 md:size-18" src={`/images/companies/logo/${logo}`} alt={`Logo ${name}`} />
+            <PopularBanner company={company} />
+            <div className="relative -mt-3 flex items-end gap-x-4 px-4">
+                <div className="border-neutral-white size-16 overflow-hidden rounded-xl border-[3px] md:size-18">
+                    <img
+                        className="h-full w-full object-cover object-center"
+                        src={`/images/companies/logo/${logo}`}
+                        alt={name}
+                    />
+                </div>
                 <div className="flex flex-col gap-1">
                     <h4 className="caption-lg text-neutral-gray-700">
                         <a href="#">{name}</a>

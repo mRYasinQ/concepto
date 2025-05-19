@@ -1,23 +1,23 @@
 const MenuItems = [
     {
         title: 'شرکت‌ها',
-        link: '/#',
+        link: '#',
     },
     {
         title: 'فرصت‌های شغلی',
-        link: '/#',
+        link: '#',
     },
     {
         title: 'اخبار و رویداد‌ها',
-        link: '/#',
+        link: '#',
     },
     {
         title: 'درباره ما',
-        link: '/#',
+        link: '#',
     },
     {
         title: 'تماس با ما',
-        link: '/#',
+        link: '#',
     },
 ];
 
